@@ -13,3 +13,6 @@ ingredients_data = [
     ('a' * 5, 'a' * 100, 1.),
     ('a' * 7, 'a' * 10, 100000000000.),
 ]
+
+ingredients_number = 6
+buns_number = 3
