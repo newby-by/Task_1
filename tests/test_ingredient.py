@@ -13,6 +13,6 @@ class TestIngredient:
         self, ingredient_type, name, price
     ):
         actual_ingredient = Ingredient(ingredient_type, name, price)
-        assert (actual_ingredient.get_type() == ingredient_type and 
-                actual_ingredient.get_name() == name and 
+        assert (actual_ingredient.get_type() == ingredient_type and
+                actual_ingredient.get_name() == name and
                 actual_ingredient.get_price() == price)

@@ -13,5 +13,5 @@ class TestBun:
         self, name, price
     ):
         actual_bun = Bun(name, price)
-        assert (actual_bun.get_name() == name and 
+        assert (actual_bun.get_name() == name and
                 actual_bun.get_price() == price)

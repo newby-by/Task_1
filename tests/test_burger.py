@@ -1,5 +1,5 @@
 class TestBurger:
-    
+
     def test_set_bun_with_expected_data(self, bun, burger):
         burger.set_buns(bun)
         actual_bun = burger.bun
@@ -39,7 +39,7 @@ class TestBurger:
         burger.move_ingredient(index1, index2)
         ingredient_with_index2 = ingredients[index2]
         ingredients_number_after = len(burger.ingredients)
-        
+
         assert (ingredient_with_index1 == ingredient_with_index2 and
                 ingredients_number_before == ingredients_number_after)
 
